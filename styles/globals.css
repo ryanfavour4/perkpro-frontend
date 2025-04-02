@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+    --dark: 28, 28, 28; /*#1c1c1c*/
+    --light: 255, 255, 255; /*#ffffff*/
+    --primary: 4, 20, 254; /*#0414fe*/
+    --secondary: 4, 237, 254; /*#04edfe*/
+    --accent: 2, 12, 152, 1; /*##020C98*/
+    --textcolor: 28, 28, 28; /*#1c1c1c*/
+    --error: 255, 0, 0; /*#ff0000*/
+    --warning: 255, 255, 0; /*#ffff00*/
+    --success: 0, 255, 0; /*#00ff00*/
+    --info: 0, 0, 255; /*#0000ff*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.1s ease;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    scrollbar-width: "thin";
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--light);
+}
+
+*::-webkit-scrollbar-thumb {
+    background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+html.light {
+    --dark: 28, 28, 28; /*#1c1c1c*/
+    --light: 255, 255, 255; /*#ffffff*/
+    --primary: 4, 20, 254; /*#0414fe*/
+    --secondary: 4, 237, 254; /*#04edfe*/
+    --accent: 2, 12, 152, 1; /*##020C98*/
+    --textcolor: 28, 28, 28; /*#1c1c1c*/
+    --error: 255, 0, 0; /*#ff0000*/
+    --warning: 255, 255, 0; /*#ffff00*/
+    --success: 0, 255, 0; /*#00ff00*/
+    --info: 0, 0, 255; /*#0000ff*/
+}
+
+html.dark {
+    --dark: 28, 28, 28; /*#1c1c1c*/
+    --light: 255, 255, 255; /*#ffffff*/
+    --primary: 4, 20, 254; /*#0414fe*/
+    --secondary: 4, 237, 254; /*#04edfe*/
+    --accent: 2, 12, 152, 1; /*##020C98*/
+    --textcolor: 28, 28, 28; /*#1c1c1c*/
+    --error: 255, 0, 0; /*#ff0000*/
+    --warning: 255, 255, 0; /*#ffff00*/
+    --success: 0, 255, 0; /*#00ff00*/
+    --info: 0, 0, 255; /*#0000ff*/
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    background: var(--light);
+    color: var(--textcolor);
+}
+
+html[class] body {
+    display: block;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+.container {
+    margin-inline: auto;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header-font,
+.font-poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+button:disabled {
+    cursor: not-allowed !important;
+    opacity: 0.6 !important;
+}
