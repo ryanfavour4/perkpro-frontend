@@ -79,7 +79,7 @@ export default function Home() {
                         alt="hero-image-house"
                     />
 
-                    <div className="pb-8">
+                    <div data-aos="fade-up" className="pb-8">
                         <h4 className="text-2xl font-semibold mb-4 text-center">
                             Get the app
                         </h4>
@@ -131,9 +131,16 @@ export default function Home() {
                         For Property Seekers
                     </h3>
 
-                    <div className="bg-accent py-16 md:px-10 px-4 rounded-2xl w-full mt-8">
+                    <div
+                        data-aos="fade-up"
+                        className="bg-accent py-16 md:px-10 px-4 rounded-2xl w-full mt-8"
+                    >
                         <div className="md:flex justify-between gap-6 flex-row grid grid-cols-2">
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="50"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -145,7 +152,11 @@ export default function Home() {
                                     Advanced Search & Filters
                                 </p>
                             </div>
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="100"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -157,7 +168,11 @@ export default function Home() {
                                     Virtual Tours
                                 </p>
                             </div>
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="150"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -169,7 +184,11 @@ export default function Home() {
                                     Rent Financing
                                 </p>
                             </div>
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -192,9 +211,16 @@ export default function Home() {
                         For Landlords & Agents
                     </h3>
 
-                    <div className="bg-dark py-16 md:px-10 px-4 rounded-2xl w-full mt-8">
+                    <div
+                        data-aos="fade-down"
+                        className="bg-dark py-16 md:px-10 px-4 rounded-2xl w-full mt-8"
+                    >
                         <div className="md:flex justify-between gap-6 flex-row grid grid-cols-2">
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-down"
+                                data-aos-delay="50"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -206,7 +232,11 @@ export default function Home() {
                                     Property Management Tools
                                 </p>
                             </div>
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-down"
+                                data-aos-delay="100"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -218,7 +248,11 @@ export default function Home() {
                                     Tenant Screening
                                 </p>
                             </div>
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-down"
+                                data-aos-delay="150"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -230,7 +264,11 @@ export default function Home() {
                                     Automated Rent Collection
                                 </p>
                             </div>
-                            <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                            <div
+                                data-aos="fade-down"
+                                data-aos-delay="200"
+                                className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                            >
                                 <Image
                                     width={50}
                                     height={50}
@@ -248,9 +286,13 @@ export default function Home() {
             </section>
 
             <section>
-                <div className="container py-16">
+                <div className="container py-16 overflow-x-hidden">
                     <div className="gap-6 md:grid md:grid-cols-3 flex items-center justify-center flex-wrap">
-                        <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                        <div
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                            className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                        >
                             <Image
                                 width={50}
                                 height={50}
@@ -262,7 +304,11 @@ export default function Home() {
                                 AI-powered Property Recommendations
                             </p>
                         </div>
-                        <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                        <div
+                            data-aos="fade-left"
+                            data-aos-delay="200"
+                            className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                        >
                             <Image
                                 width={50}
                                 height={50}
@@ -275,7 +321,11 @@ export default function Home() {
                                 transit.
                             </p>
                         </div>
-                        <div className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full">
+                        <div
+                            data-aos="fade-left"
+                            data-aos-delay="300"
+                            className="flex items-center justify-center flex-col gap-3 max-w-sm py-4 h-full"
+                        >
                             <Image
                                 width={50}
                                 height={50}
@@ -298,7 +348,11 @@ export default function Home() {
                     </h3>
                     <div className="grid grid-cols-12 mt-10">
                         <div className="col-span-6 flex flex-col gap-8 pt-16">
-                            <div className="flex flex-col gap-2">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="100"
+                                className="flex flex-col gap-2"
+                            >
                                 <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
                                     <p className="text-xl">1</p>
                                 </div>
@@ -308,7 +362,11 @@ export default function Home() {
                                 </p>
                             </div>
 
-                            <div className="flex flex-col gap-2">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                                className="flex flex-col gap-2"
+                            >
                                 <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
                                     <p className="text-xl">2</p>
                                 </div>
@@ -318,7 +376,11 @@ export default function Home() {
                                 </p>
                             </div>
 
-                            <div className="flex flex-col gap-2">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                                className="flex flex-col gap-2"
+                            >
                                 <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
                                     <p className="text-xl">3</p>
                                 </div>
@@ -328,7 +390,11 @@ export default function Home() {
                                 </p>
                             </div>
 
-                            <div className="flex flex-col gap-2">
+                            <div
+                                data-aos="fade-up"
+                                data-aos-delay="400"
+                                className="flex flex-col gap-2"
+                            >
                                 <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
                                     <p className="text-xl">4</p>
                                 </div>
@@ -345,6 +411,9 @@ export default function Home() {
                                 height={50}
                                 alt="MobilePhone"
                                 unoptimized
+                                data-aos="flip-left"
+                                data-aos-delay="200"
+                                data-aos-duration="1000"
                                 src={MobilePhone}
                                 className="object-contain w-full max-w-xs md:h-fit h-full"
                             />
@@ -353,7 +422,11 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="bg-primary">
+            <section
+                data-aos="fade-up"
+                data-aos-delay="100"
+                className="bg-primary"
+            >
                 <div className="container px-5 py-24 mx-auto flex md:flex-row flex-col">
                     <div className="text-light flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
                         <p className="text-lg text-center">
@@ -363,8 +436,8 @@ export default function Home() {
                             Download the Perkpro Mobile App{" "}
                         </h1>
                     </div>
-                    <div className="flex md:ml-auto md:mr-0 mx-auto items-center flex-shrink-0 space-x-4">
-                        <button className="btn bg-black ring-1 ring-black border-white border-2 border-spacing-3 flex w-fit px-4 py-1 items-center gap-4 rounded-lg shadow-sm text-light">
+                    <div className="flex flex-wrap md:ml-auto md:mr-0 md:gap-y-0 gap-y-4 mx-auto items-center md:flex-shrink-0 md:space-x-4">
+                        <button className="btn bg-black ring-1 ring-black border-white border-2 border-spacing-3 flex w-full md:w-fit px-4 py-1 items-center gap-4 rounded-lg shadow-sm text-light">
                             <Image
                                 width={50}
                                 height={50}
@@ -381,7 +454,7 @@ export default function Home() {
                                 </p>
                             </div>
                         </button>
-                        <button className="btn bg-black ring-1 ring-black border-white border-2 border-spacing-3 flex w-fit px-4 py-1 items-center gap-4 rounded-lg shadow-sm text-light">
+                        <button className="btn bg-black ring-1 ring-black border-white border-2 border-spacing-3 flex w-full md:w-fit px-4 py-1 items-center gap-4 rounded-lg shadow-sm text-light">
                             <Image
                                 width={50}
                                 height={50}
@@ -417,7 +490,7 @@ export default function Home() {
                         />
                     </Link>
                     <p className="text-sm text-light/75 sm:ml-4 pl-4 md:border-l-2 py-6 md:py-2">
-                        © 2021 —
+                        © 2025 —
                         <a
                             href="#"
                             className="text-light/75 ml-1"
@@ -431,4 +504,3 @@ export default function Home() {
         </main>
     );
 }
-
