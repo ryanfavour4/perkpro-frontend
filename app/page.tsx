@@ -343,69 +343,73 @@ export default function Home() {
 
             <section>
                 <div className="container mb-8 px-3">
-                    <h3 className="text-3xl font-semibold text-center">
-                        How It Works For Landlords & Agents
-                    </h3>
                     <div className="grid grid-cols-12 mt-10">
                         <div className="col-span-6 flex flex-col gap-8 pt-16">
-                            <div
-                                data-aos="fade-up"
-                                data-aos-delay="100"
-                                className="flex flex-col gap-2"
-                            >
-                                <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
-                                    <p className="text-xl">1</p>
+                            <div className="flex items-center justify-center text-center flex-col gap-6 max-w-sm md:ml-48">
+                                <h3 className="text-3xl font-semibold mb-6">
+                                    How It Works
+                                    <div className="border border-primary" />
+                                </h3>
+
+                                <div
+                                    data-aos="fade-up"
+                                    data-aos-delay="100"
+                                    className="flex flex-col items-center justify-center gap-2"
+                                >
+                                    <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
+                                        <p className="text-xl">1</p>
+                                    </div>
+
+                                    <p className="text-xl md:text-2xl max-w-52 text-balance">
+                                        Sign Up & Set Preferences
+                                    </p>
                                 </div>
 
-                                <p className="text-lg font-semibold">
-                                    Sign Up & Set Preferences
-                                </p>
-                            </div>
+                                <div
+                                    data-aos="fade-up"
+                                    data-aos-delay="200"
+                                    className="flex flex-col items-center justify-center gap-2"
+                                >
+                                    <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
+                                        <p className="text-xl">2</p>
+                                    </div>
 
-                            <div
-                                data-aos="fade-up"
-                                data-aos-delay="200"
-                                className="flex flex-col gap-2"
-                            >
-                                <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
-                                    <p className="text-xl">2</p>
+                                    <p className="text-xl md:text-2xl max-w-52 text-balance">
+                                        Browse Verified Listings
+                                    </p>
                                 </div>
 
-                                <p className="text-lg font-semibold">
-                                    Browse Verified Listings
-                                </p>
-                            </div>
+                                <div
+                                    data-aos="fade-up"
+                                    data-aos-delay="300"
+                                    className="flex flex-col items-center justify-center gap-2"
+                                >
+                                    <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
+                                        <p className="text-xl">3</p>
+                                    </div>
 
-                            <div
-                                data-aos="fade-up"
-                                data-aos-delay="300"
-                                className="flex flex-col gap-2"
-                            >
-                                <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
-                                    <p className="text-xl">3</p>
+                                    <p className="text-xl md:text-2xl max-w-52 text-balance">
+                                        Chat, Schedule Visits & Apply
+                                    </p>
                                 </div>
 
-                                <p className="text-lg font-semibold">
-                                    Chat, Schedule Visits & Apply
-                                </p>
-                            </div>
+                                <div
+                                    data-aos="fade-up"
+                                    data-aos-delay="400"
+                                    className="flex flex-col items-center justify-center gap-2"
+                                >
+                                    <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
+                                        <p className="text-xl">4</p>
+                                    </div>
 
-                            <div
-                                data-aos="fade-up"
-                                data-aos-delay="400"
-                                className="flex flex-col gap-2"
-                            >
-                                <div className="h-10 w-10 bg-primary p-6 rounded-full text-center flex items-center justify-center text-light">
-                                    <p className="text-xl">4</p>
+                                    <p className="text-xl md:text-2xl max-w-56 text-balance">
+                                        Secure Payments & Financing
+                                    </p>
                                 </div>
-
-                                <p className="text-lg font-semibold">
-                                    Secure Payments & Financing
-                                </p>
                             </div>
                         </div>
 
-                        <div className="col-span-6">
+                        <div className="col-span-6 flex-col flex items-center justify-center">
                             <Image
                                 width={50}
                                 height={50}
@@ -425,15 +429,12 @@ export default function Home() {
             <section
                 data-aos="fade-up"
                 data-aos-delay="100"
-                className="bg-primary"
+                className="pb-6 px-4"
             >
-                <div className="container px-5 py-24 mx-auto flex md:flex-row flex-col">
-                    <div className="text-light flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
-                        <p className="text-lg text-center">
-                            House Listing, Rent Financing, Purchase Properties.
-                        </p>
+                <div className="container rounded-3xl border-2 px-6 shadow-md bg-light py-16 mx-auto flex md:flex-row flex-col">
+                    <div className="text-dark flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
                         <h1 className="md:text-3xl text-2xl font-medium">
-                            Download the Perkpro Mobile App{" "}
+                            Download Perkpro
                         </h1>
                     </div>
                     <div className="flex flex-wrap md:ml-auto md:mr-0 md:gap-y-0 gap-y-4 mx-auto items-center md:flex-shrink-0 md:space-x-4">
